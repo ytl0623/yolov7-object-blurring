@@ -1,0 +1,8 @@
+#if you want to change source file
+python detect_and_blur.py --weights /home/ytl0623/data/yolov7/models/yolov7.pt --source /home/ytl0623/data/yolov7/result/MRT.mp4 --blurratio 20
+
+#for specific class (person)
+python detect_and_blur.py --weights /home/ytl0623/data/yolov7/models/yolov7.pt --source /home/ytl0623/data/yolov7/result/MRT.mp4 --classes 0 --blurratio 50
+
+#hide-detected-bounding-boxes
+python detect_and_blur.py --weights /home/ytl0623/data/yolov7/models/yolov7.pt --source /home/ytl0623/data/yolov7/result/MRT.mp4 --classes 0 --blurratio 50 --hidedetarea
