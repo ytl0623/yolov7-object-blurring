@@ -1,8 +1,5 @@
 ## Object Detection and Blurring
-
-
-https://github.com/ytl0623/yolov7-object-blurring/assets/55120101/b84755cb-dc2f-4cd6-8472-cd08ff193fdc
-
+![image](picture or gif url)
 
 ## Object Detection and Blurring with specific class
 
